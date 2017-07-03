@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OpenNotary</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>OpenNotary</h1>
+  <h2>Prove your ownership</h2>
+
+  <br>
+  <h1>Notarize Document</h1>
+  <br><label for="document">Document:</label><input type="file" id="documentSelection"></input>
+  <br><br><button id="upload" onclick="App.witnessDocument()">Notarize</button>
+  <br><br>
+  <span id="status"></span>
+  <br>
+  <span class="hint"><strong>Hint:</strong> open the browser developer console to view any errors and warnings.</span>
+</body>
+</html>
